@@ -19,8 +19,12 @@ void exercise_2(string s1) {
   for (int = 0; s1 < line.size(); ++s1) {
     if (line[s1] != " ") {
       line1 = line1 + line[s1];
-    } else 
+    } else {
+      cout << "["<<line1<<"]"<<endl;
+      line1= "";
+    }
   }
+  cout << "["<<line1<<"]"<<endl;
 }
 
 void exercise_3(string s1) {
