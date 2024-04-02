@@ -7,7 +7,7 @@ using namespace std;
 void exercise_1(string s1) {
   // TODO: YOUR CODE HERE
   for (int s1 = 0; s1< line.size(); ++s1 ) {
-    if (line[s1] == " ") {
+    if (line[s1] == ' ') {
       cout << s1 << endl;
     }
   }
