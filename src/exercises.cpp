@@ -16,7 +16,7 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
-  for (int = 0; s1 < line.size(); ++s1) {
+  /*for (int = 0; s1 < line.size(); ++s1) {
     if (line[s1] != " ") {
       line1 = line1 + line[s1];
     } else {
@@ -25,7 +25,7 @@ void exercise_2(string s1) {
     }
   }
   cout << "["<<line1<<"]"<<endl;
-}
+}*/
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
