@@ -6,12 +6,12 @@ using namespace std;
 
 void exercise_1(string s1) {
   // TODO: YOUR CODE HERE
-  for (int s1 = 0; s1< line.size(); ++s1 ) {
-    if (line[s1] == ' ') {
-      cout << s1 << endl;
+  for (int i = 0; i< s1.size(); ++i ) {
+    if (s1[i] == ' ') {
+      cout << i << endl;
     }
   }
-  cout << line.size() << endl;
+  cout << s1.size() << endl;
 }
 
 void exercise_2(string s1) {
