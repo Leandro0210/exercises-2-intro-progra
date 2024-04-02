@@ -24,8 +24,8 @@ void exercise_2(string s1) {
       line1= "";
     }
   }
-  cout << "["<<line1<<"]"<<endl;
-}*/
+  cout << "["<<line1<<"]"<<endl;*/
+}
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
