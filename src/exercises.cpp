@@ -16,15 +16,15 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
-  /*for (int = 0; s1 < line.size(); ++s1) {
-    if (line[s1] != " ") {
-      line1 = line1 + line[s1];
+  for (int = 0; i < s1.size(); ++i) {
+    if (s1[i] != " ") {
+      s1 = s1 + s1[i];
     } else {
-      cout << "["<<line1<<"]"<<endl;
-      line1= "";
+      cout << "["<<s1<<"]"<<endl;
+      s1= "";
     }
   }
-  cout << "["<<line1<<"]"<<endl;*/
+  cout << "["<<s1<<"]"<<endl;
 }
 
 void exercise_3(string s1) {
