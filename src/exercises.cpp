@@ -1,6 +1,7 @@
 
 #include <cmath>
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -16,15 +17,16 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
-  /*for (int i = 0; i < s1.size(); ++i) {
-    if (s1[i] != " ") {
-      s1 = s1 + s1[i];
+  string s2;
+  for (int i = 0; i < s1.size(); ++i) {
+    if (s1[i] != ' ') {
+      s2 = s2 + s1[i];
     } else {
-      cout << "["<<s1<<"]"<<endl;
-      s1= "";
+      cout << "["<<s2<<"]"<<endl;
+      s2= "";
     }
   }
-  cout << "["<<s1<<"]"<<endl;*/
+  cout << "["<<s2<<"]"<<endl;
 }
 
 void exercise_3(string s1) {
