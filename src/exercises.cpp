@@ -35,6 +35,17 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   // TODO: YOUR CODE HERE
+  if (n<0) {
+    cout<< "Numero no valido, Por favor ingrese un numero positivo"<<endl;
+  }  else if (n>10) {
+    cout<< "El numero es muy alto"<<endl;
+  } else {
+    int resultado= 1;
+    for (int i=1; i<=n; i=i+1 ) {
+      resultado = resultado * i;
+    }
+    cout<< resultado;
+ }
 }
 
 void exercise_5(int n, int k) {
@@ -87,7 +98,7 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
-int co;
+/*int co;
         int re;
         co = 0;
     re = divident;
@@ -97,7 +108,7 @@ int co;
             
         }
         cout << "Cociente: " << co <<endl;
-    cout << "Residuo: " << re << endl;
+    cout << "Residuo: " << re << endl; */
     }
 
 void exercise_17(int n) {
