@@ -85,7 +85,18 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
-}
+int co;
+        int re;
+        co = 0;
+    re = divident;
+
+    for (; re >= divider; co++) {
+        re -= divider; 
+            
+        }
+        cout << "Cociente: " << co <<endl;
+    cout << "Residuo: " << re << endl;
+    }
 
 void exercise_17(int n) {
   // TODO: YOUR CODE HERE
