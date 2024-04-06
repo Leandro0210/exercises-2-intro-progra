@@ -55,6 +55,17 @@ void exercise_5(int n, int k) {
 
 int exercise_6(int n) {
   // TODO: YOUR CODE HERE
+if (n<0) {
+
+cout << "Numero no valido";
+}
+int suma = 0;
+while(n>0) {
+
+suma = suma + n % 10;
+n = n / 10;
+}
+cout << "El resultado de la suma es: "<<suma;
   return 0;
 }
 
