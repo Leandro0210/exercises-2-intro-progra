@@ -66,7 +66,7 @@ suma = suma + n % 10;
 n = n / 10;
 }
 cout << "El resultado de la suma es: "<<suma;
-  return 0;
+  
 }
 
 void exercise_7(int n) {
