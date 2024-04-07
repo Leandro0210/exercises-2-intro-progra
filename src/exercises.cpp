@@ -35,20 +35,19 @@ void exercise_3(string s1) {
 }
 
 void exercise_4(int n) {
-  // TODO: YOUR CODE HERE
-  if (n < 0) {
-        cout << "Numero no valido, por favor ingrese un numero positivo" << endl;
-      
-    } else if (n > 10) {
-        cout << "El numero es muy alto" << endl;
-       
-    } else {
-        int resultado = 1;
-        for (int i = 1; i <= n; i = i + 1) {
-            resultado = resultado * i;
-        }
-        cout << resultado<< \n;
+  // TODO: YOUR CODE HERe
+  if (n<0) {
+    cout << "Numero no valido, Por favor ingrese un numero positivo"<<endl;
+  
+  } else if (n>10) {
+    cout<<"El numero es muy alto"<<endl;
+  } else {
+    int resultado= 1;
+    for (int i= 1; i<=n; i=i+1) {
+      resultado= resultado * i;
     }
+cout << resultado;
+  }
 }
 
 
