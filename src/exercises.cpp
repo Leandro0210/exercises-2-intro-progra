@@ -36,7 +36,7 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   // TODO: YOUR CODE HERE
- /* if (n<0) {
+  if (n<0) {
     cout<< "Numero no valido, Por favor ingrese un numero positivo"<<endl;
   }  else if (n>10) {
     cout<< "El numero es muy alto"<<endl;
@@ -46,7 +46,7 @@ void exercise_4(int n) {
       resultado = resultado * i;
     }
     cout<< resultado;
- }*/
+ }
 }
 
 void exercise_5(int n, int k) {
@@ -66,7 +66,7 @@ suma = suma + n % 10;
 n = n / 10;
 }
 cout << "El resultado de la suma es: "<<suma;
-  
+  return suma;
 }
 
 void exercise_7(int n) {
