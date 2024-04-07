@@ -17,7 +17,7 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
- /* string s2;
+  string s2;
   for (int i = 0; i < s1.size(); ++i) {
     
     if (s1[i] != ' ') {
@@ -27,7 +27,7 @@ void exercise_2(string s1) {
       s2= "";
     }
   }
-  cout << "["<<s2<<"]"<<endl;*/
+  cout << "["<<s2<<"]"<<endl;
 }
 
 void exercise_3(string s1) {
@@ -47,7 +47,7 @@ void exercise_4(int n) {
     }
     cout<< resultado;
  }
- return;
+
 }
 
 void exercise_5(int n, int k) {
