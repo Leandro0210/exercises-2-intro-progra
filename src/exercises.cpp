@@ -47,7 +47,7 @@ void exercise_4(int n) {
         for (int i = 1; i <= n; ++i) {
             resultado *= i;
         }
-        return resultado;
+        cout << resultado;
     }
 }
 
