@@ -47,7 +47,7 @@ void exercise_4(int n) {
     }
     cout<< resultado;
  }
- return resultado;
+ 
 }
 
 void exercise_5(int n, int k) {
