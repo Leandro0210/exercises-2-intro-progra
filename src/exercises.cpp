@@ -17,17 +17,17 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
-  string s2;
+  string word;
   for (int i = 0; i < s1.size(); ++i) {
     
     if (s1[i] != ' ') {
-      s2 = s2 + s1[i];
+      word = word + s1[i];
     } else {
-      cout<<"["<<s2<<"]"<<endl;
-      s2= "";
+      cout<<"["<<word<<"]"<<endl;
+      word= "";
     }
   }
-  cout<<"["<<s2<<"]"<<endl;
+  cout<<"["<<word<<"]"<<endl;
 }
 
 void exercise_3(string s1) {
