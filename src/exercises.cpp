@@ -26,11 +26,7 @@ void exercise_2(string s1) {
       cout<<"["<<word<<"]"<<endl;
       word= "";
     }
-    if (word == "") {
-      cout <<"";
-    } else {
-      cout<<"["<<word<<"]"<<endl;
-    }
+    
   }
   cout<<"["<<word<<"]"<<endl;
 }
