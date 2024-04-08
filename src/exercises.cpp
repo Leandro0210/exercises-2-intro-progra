@@ -23,11 +23,11 @@ void exercise_2(string s1) {
     if (s1[i] != ' ') {
       s2 = s2 + s1[i];
     } else {
-      cout << "["<<s2<<"]"<<endl;
+      cout<<"["<<s2<<"]"<<endl;
       s2= "";
     }
   }
-  cout << "["<<s2<<"]"<<endl;
+  cout<<"["<<s2<<"]"<<endl;
 }
 
 void exercise_3(string s1) {
