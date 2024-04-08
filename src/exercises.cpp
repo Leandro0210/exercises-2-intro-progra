@@ -46,7 +46,7 @@ void exercise_4(int n) {
     for (int i= 1; i<=n; i=i+1) {
       resultado= resultado * i;
     }
-cout << resultado;
+cout << resultado<<endl;
   }
 }
 
