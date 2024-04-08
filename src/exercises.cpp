@@ -74,6 +74,12 @@ cout << "El resultado de la suma es: "<<suma;
 
 void exercise_7(int n) {
   // TODO: YOUR CODE HERE
+  double resultado = 0;
+    int m = -1;
+    for (int i = 1; i <= n; i=i+1) {
+        resultado =resultado + pow(m, i + 1) / i;
+    }
+    cout<< resultado << endl;
 }
 
 void exercise_8(string s) {
