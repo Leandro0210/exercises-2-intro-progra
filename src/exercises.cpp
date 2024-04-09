@@ -25,6 +25,8 @@ void exercise_2(string s1) {
     } else {
       cout<<"["<<word<<"]"<<endl;
       word= "";
+    }   if (s1.size() != 0) {
+      cout<<"["<<word<<"]"<<endl;
     }
     
   }
