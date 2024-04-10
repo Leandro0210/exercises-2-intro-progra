@@ -123,7 +123,7 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-  // TODO: YOUR CODE HER
+  /*/ TODO: YOUR CODE HER
    int co;
         int re;
         co = 0;
@@ -134,7 +134,7 @@ void exercise_16(int divident, int divider) {
             
         }
         cout << co<<" " << re <<endl;
-     
+     */
     }
 
 void exercise_17(int n) {
