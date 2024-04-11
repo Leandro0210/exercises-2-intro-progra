@@ -38,7 +38,7 @@ void exercise_2(string s1) {
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
-  for (int i = 0; i < s1.length() && i < 10; ++i) {
+  for (int i = 0; i < s1.length() && i < 20; ++i) {
           int paste = s1[i] - '0';
           if (paste == 1) {
               cout<<"Om-nom-nom :P"<<endl;
