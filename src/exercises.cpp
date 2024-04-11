@@ -38,16 +38,17 @@ void exercise_2(string s1) {
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
-  for (int i=0; i< s1.size(); ++i) {
-        if (i>= 10) {
-            break;
-        }  else if  (s1[i] == '1') {
-            cout << "Om-nom-nom :p"<<endl;
-        } else if (s1[i]== '0') {
-            cout <<"no cake :("<<endl;
-            break;
-        }
-    }
+  for (int i = 0; i < s1.length() && i < 10; ++i) {
+          int paste = s1[i] - '0';
+          if (paste == 1) {
+              cout<<"Om-nom-nom :P"<<endl;
+          }  else if (paste == 0) {
+              cout<<"No cake :("<<endl;
+              break;
+          }
+          
+      }
+ 
 }
 
 void exercise_4(int n) {
