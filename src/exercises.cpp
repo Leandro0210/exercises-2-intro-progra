@@ -158,6 +158,7 @@ void exercise_16(int divident, int divider) {
     while (divident >= divider) {
         divident = divident - divider; 
             co++;
+            
         }
         cout << co<<" " << divident <<endl;
     }
