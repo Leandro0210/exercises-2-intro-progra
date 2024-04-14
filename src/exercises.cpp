@@ -128,7 +128,13 @@ void exercise_9(string s) {
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
-  return 0;
+    while (b != 0) {
+        int c = b;
+        b = a % b;
+        a = c;
+    }
+    return a;
+  
 }
 
 void exercise_11() {
@@ -154,13 +160,13 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-   int co;
+   /*int co;
     while (divident >= divider) {
         divident = divident - divider; 
             co++;
-            
+
         }
-        cout << co<<" " << divident <<endl;
+        cout << co<<" " << divident <<endl; */
     }
 
 void exercise_17(int n) {
