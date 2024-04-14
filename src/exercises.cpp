@@ -179,28 +179,6 @@ string exercise_14(int n) {
     }
     
     return resultado;
- 
-=======
-   string resultado;
-    string num = to_string(n);
-    int longitud = num.size();
-    
-    bool espa = true;
-    for (int i = 0; i < longitud; ++i) {
-        if (num[i] != num[longitud - i - 1]) {
-            espa = false;
-    
-        }
-    }
-    
-    if (espa) {
-        resultado = "Es palíndromo";
-    } else {
-        resultado = "No es palíndromo";
-    }
-    
-    return resultado;
->>>>>>> ac6876229db78a47863d3d8abf95e72d5a202d7f
 }
 
 void exercise_15(int decimal) {
