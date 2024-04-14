@@ -124,6 +124,23 @@ for (int i = 0; i < s.size(); ++i){
 
 void exercise_9(string s) {
   // TODO: YOUR CODE HERE
+  int longi = s.size();
+    int cuenta= 0;
+    for (int i=0; i<longi; ++i) {
+        if(s[i] == 'f') {
+            cuenta = cuenta + 1;
+        }
+    }
+     if (cuenta == 1 ) {
+            cout <<"-1"<<endl;
+           return ;
+        }   else if (cuenta == 2) {
+            cout << "3"<<endl;
+             return ;
+        }  if (cuenta == 0) {
+            cout << "-2"<<endl;
+             return ;
+        }
 }
 
 int exercise_10(int a, int b) {
