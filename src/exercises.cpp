@@ -173,7 +173,7 @@ string exercise_14(int n) {
     }
     
     if (espa) {
-        resultado = "Es palindromo";
+        resultado = "Es palindrome";
     } else {
         resultado = "No es palindromo";
     }
