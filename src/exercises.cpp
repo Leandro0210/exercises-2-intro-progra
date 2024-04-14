@@ -160,7 +160,25 @@ long exercise_13(int n, int k) {
 
 string exercise_14(int n) {
   // TODO: YOUR CODE HERE
-  return "";
+   string resultado;
+    string num = to_string(n);
+    int longitud = num.size();
+    
+    bool espa = true;
+    for (int i = 0; i < longitud; ++i) {
+        if (num[i] != num[longitud - i - 1]) {
+            espa = false;
+    
+        }
+    }
+    
+    if (espa) {
+        resultado = "Es palíndromo";
+    } else {
+        resultado = "No es palíndromo";
+    }
+    
+    return resultado;
 }
 
 void exercise_15(int decimal) {
