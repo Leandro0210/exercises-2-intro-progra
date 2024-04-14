@@ -139,14 +139,7 @@ int exercise_10(int a, int b) {
 
 void exercise_11() {
   // TODO: YOUR CODE HERE
-   double Un = 1.0;
-    cout << "U0 = " << Un << endl;
-  
-    for (int n = 0; n <= 10; ++n) {
-        Un = (n + 1) * Un;
-        Un = 1.0 / Un;
-        cout << "U" << n << " = " << Un << endl;
-    }
+   
 }
 
 void exercise_12() {
@@ -155,7 +148,14 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
-  return 0;
+ long resultado = 0;
+
+    for (int i = 1; i <= n; i++) {
+        resultado = resultado + pow(i,k);
+        
+    }
+    return resultado;
+  
 }
 
 string exercise_14(int n) {
