@@ -141,6 +141,7 @@ void exercise_11() {
   // TODO: YOUR CODE HERE
    double Un = 1.0;
     cout << "U0 = " << Un << endl;
+    cout << "U1 = " << Un << endl;
 
     for (int n = 1; n <= 10; ++n) {
         Un = (n + 1) * Un;
