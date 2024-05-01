@@ -154,8 +154,15 @@ int exercise_10(int a, int b) {
   
 }
 
-void exercise_11() {
+void exercise_11(int n) {
   // TODO: YOUR CODE HERE
+  double u = 1.0;
+    int ini = 1;
+    cout<<"U0 = "<<ini<<endl;
+    for (int i = 0; i <n; ++i) {
+        u = u/(i+1);
+        cout<<"U"<<i+1<<" = "<<u<<endl;
+    }
    
 }
 
@@ -204,12 +211,12 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
 
-  /*int co;
+  int co;
     while (divident >= divider) {
         divident = divident - divider; 
             ++co;
         }
-        cout <<co<< " " << divident <<endl; */
+        cout <<co<< " " << divident <<endl; 
 
    
 }
