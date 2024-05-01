@@ -169,7 +169,7 @@ void exercise_11() {
 
 void exercise_12() {
   // TODO: YOUR CODE HERE
-   int n = 10;
+ /*  int n = 10;
     double u = 1.0;
     double v = 1;
      int ini = 1;
@@ -181,7 +181,7 @@ void exercise_12() {
         v = v + u;
         cout<<"U"<<i+1<<" = "<<u;
         cout<<" V"<<i+1<<" = "<<v<<endl;
-    }
+    } */
 }
 
 long exercise_13(int n, int k) {
