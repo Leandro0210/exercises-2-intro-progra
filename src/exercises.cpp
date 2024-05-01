@@ -156,19 +156,32 @@ int exercise_10(int a, int b) {
 
 void exercise_11() {
   // TODO: YOUR CODE HERE
-  int n = 10;
+  /*int n = 10;
     double u = 1.0;
     int ini = 1;
     cout<<"U0 = "<<ini<<endl;
     for (int i = 0; i <n; ++i) {
         u = u/(i+1);
         cout<<"U"<<i+1<<" = "<<u<<endl;
-    }
+    } */
    
 }
 
 void exercise_12() {
   // TODO: YOUR CODE HERE
+   int n = 10;
+    double u = 1.0;
+    double v = 1;
+     int ini = 1;
+     
+    cout<<"U0 = "<<ini;
+    cout<<" V0 = "<<ini<<endl;
+    for (int i = 0; i <n; ++i) {
+        u = u/(i+1);
+        v = v + u;
+        cout<<"U"<<i+1<<" = "<<u;
+        cout<<" V"<<i+1<<" = "<<v<<endl;
+    }
 }
 
 long exercise_13(int n, int k) {
