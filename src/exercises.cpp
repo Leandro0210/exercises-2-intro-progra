@@ -154,9 +154,10 @@ int exercise_10(int a, int b) {
   
 }
 
-void exercise_11(int n) {
+void exercise_11() {
   // TODO: YOUR CODE HERE
-  double u = 1.0;
+ int n = 10;
+    double u = 1.0;
     int ini = 1;
     cout<<"U0 = "<<ini<<endl;
     for (int i = 0; i <n; ++i) {
