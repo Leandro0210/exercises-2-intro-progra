@@ -70,6 +70,25 @@ cout << resultado<<endl;
 
 void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
+  for(int i=1; i < n; ++i) {
+    cout << "   ";
+  }
+  for (int j = 1; j <= k; ++j) {
+    if(j < 10) {
+      cout << " ";
+    }
+    cout << j;
+
+    int salto =(j + n - 1) % 7;
+
+    if (salto == 0) {
+      cout << endl;
+    } else if(j == k) {
+      cout << " " << endl;
+    } else {
+      cout << " ";
+    }
+  }
 }
 
 int exercise_6(int n) {
