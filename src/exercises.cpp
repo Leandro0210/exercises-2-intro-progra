@@ -175,6 +175,15 @@ int exercise_10(int a, int b) {
 
 void exercise_11() {
   // TODO: YOUR CODE HERE
+
+ double u_0 = 1.0; 
+    double u_n = u_0; 
+    cout << "U0 = " << u_0 << endl;
+    for (int i = 1; i <= 10; ++i) { 
+        u_n /= i; 
+        cout << "U" << i << " = " << u_n << endl;
+    }
+
   /*int n = 10;
     double u = 1.0;
     int ini = 1;
