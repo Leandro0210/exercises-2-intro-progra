@@ -260,6 +260,17 @@ string exercise_14(int n) {
 
 void exercise_15(int decimal) {
   // TODO: YOUR CODE HERE
+   string bin = ""; 
+  if(decimal == 0){
+    bin = to_string(decimal);
+  }
+  while (decimal > 0) {
+  int r = decimal % 2; 
+  bin = to_string(r) + bin; 
+
+  decimal /= 2; 
+    }
+    cout << bin << endl;
 }
 
 void exercise_16(int divident, int divider) {
