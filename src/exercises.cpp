@@ -184,14 +184,7 @@ void exercise_11() {
         cout << "U" << i << " = " << u_n << endl;
     }
 
-  /*int n = 10;
-    double u = 1.0;
-    int ini = 1;
-    cout<<"U0 = "<<ini<<endl;
-    for (int i = 0; i <n; ++i) {
-        u = u/(i+1);
-        cout<<"U"<<i+1<<" = "<<u<<endl;
-    } */
+
    
 }
 
@@ -208,19 +201,7 @@ double u_0 = 1.0;
     cout << "U" << i << " = " << u_n << " V" << i << " = " << "1" << endl;
   }
 
- /*  int n = 10;
-    double u = 1.0;
-    double v = 1;
-     int ini = 1;
-     
-    cout<<"U0 = "<<ini;
-    cout<<" V0 = "<<ini<<endl;
-    for (int i = 0; i <n; ++i) {
-        u = u/(i+1);
-        v = v + u;
-        cout<<"U"<<i+1<<" = "<<u;
-        cout<<" V"<<i+1<<" = "<<v<<endl;
-    } */
+
 }
 
 long exercise_13(int n, int k) {
@@ -274,20 +255,67 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-
-  /*int co;
-    while (divident >= divider) {
-        divident = divident - divider; 
-            ++co;
-        }
-        cout <<co<< " " << divident <<endl; 
-*/ 
+int i;
+  if(divident < divider){
+    i = 0;
+    cout << i << " " << divident << endl;
+  }
+  if(divider > 0 && divident >= divider){
+    for(i = 0; divident != 0 && divident != 1; ++i){
+    divident -= divider;
+  }
+    cout << i << " " << divident << endl;
+  }
+  
    
 }
 void exercise_17(int n) {
   // TODO: YOUR CODE HERE
+   int count = 0;
+  int num = 2;
+  while (count < n) {
+    bool prim = true;
+    for (int divisor = 2; divisor * divisor <= num; divisor++) {
+    if (num % divisor == 0) {
+    prim = false;
+     break;
+    }
+    }
+    if (prim) {
+     cout << num << " ";
+   count++;
+    }
+   num++;
+  }
 }
 
 void exercise_18_19(int debut, int fin) {
   // TODO: YOUR CODE HERE
+  if ( debut > fin) {
+    cout << "El numero de fin no debe de ser menor al inicial" << endl;
+    return;
+  }
+  for (int i = debut; i <= fin; i++) {
+    if ( debut == 1 && fin == 1){
+        cout << debut << "->" << fin << endl;
+        break;
+    }
+   if (debut <= 0) {
+    cout << "El numero debe de ser positivo y mayor a zero" << endl;
+    break;
+  }
+    int count = 0;
+    int x = i; 
+    while (x > 0) {
+    if (x % 3 == 0) {
+    x += 4;
+    } else if (x % 4 == 0) {
+    x /= 2;
+    } else {
+   x--;
+    }
+    count++;
+    }
+    cout << i << "->" << count << endl;
+  }
 }
